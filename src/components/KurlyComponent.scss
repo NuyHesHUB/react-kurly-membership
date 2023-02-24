@@ -1,0 +1,283 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* 공통속성 */
+ul{list-style: none;}
+a{text-decoration: none; color: #222;}
+i{font-style: normal;}
+
+#kurly{
+    width: 640px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    .title{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .content{
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h4{
+            text-align: right;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgb(51, 51, 51);
+            span{
+                font-size: 12px;
+                i{
+                    color: #ee6a7b;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .gap{
+            display: flex;
+            padding: 10px 20px;
+            .label-box{
+                width: 160px;
+                span{
+                    color: #111;
+                    font-size: 15px;
+                    font-weight: 600;
+                    i{
+                        color: #ee6a7b;
+                    }
+                }
+            }
+            .input-box{
+                width: 440px;
+                position: relative;
+                p{
+                    
+                    font-size: 12px;
+                    color: #666;
+                    margin: 7px 0 0 0;
+                    &.red{
+                        color: #f03f40
+                    }   
+                    &.green{
+                        color: rgb(22, 88, 22)
+                    }
+                    &.gapAgree{
+                        display: block;
+                    }
+                }
+                .inputText{
+                    padding: 5px 10px;
+                    width: 70%;
+                    height: 45px;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                    &::placeholder{
+                        color: #777;
+                        font-size: 14px;
+                    }
+                    &:focus{
+                        outline: 1px solid #666;
+                        outline-offset: -1px;
+                    }
+                    img{vertical-align: middle;}
+                }
+                button{}
+                .w120-btn{
+                    width: 120px;
+                    height: 45px;
+                    border: 1px solid #5f0080;
+                    color: #5f0080;
+                    font-weight: bold;
+                    font-size: 15px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    background: #fff;
+                }
+                label{
+                    &:nth-child(1){margin: 0 auto 0 0;}
+                    &:nth-child(2){margin: 0 auto 0 auto;}
+                    &:nth-child(3){margin: 0 0 0 auto;}
+                    input[type='radio']{
+                        width: 24px;
+                        height: 24px;
+                        appearance: none;
+                        border: 1px solid #ccc;
+                        border-radius: 50%;
+                        background: #fff;
+                        &:checked{
+                            border: 7px solid #5f0080;
+                        }
+                    }
+                    span{
+                        font-size: 15px;
+                        margin: 10px;
+                        position: relative;
+                        top: -7px;
+                    }
+                }
+                &.radio-box{
+                    width: 53%;
+                    display: flex;
+                    justify-content: space-between;
+                    span{font-size: 14px;}
+                }
+                .date-box{
+                    width: 70%;
+                    height: 45px;
+                    border: 1px solid #ccc;
+                    display: flex;
+                    background: #fff;
+                    padding: 0 25px;
+                    li{
+                        height: 100%;
+                        padding: 0;
+                        input[type='text']{
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            border: none;
+                            &:focus{
+                                outline: 0;
+                            }
+                            &::placeholder{
+                                color: #999;
+                                font-size: 16px;
+                            }
+                        }
+                        span{
+                            font-size: 16px;
+                            color: #ccc;
+                            position: relative;
+                            top: 7px;
+                        }
+                    }
+                }
+            }
+        }
+        hr{
+            border: 0;
+            width: 100%;
+            margin: 20px 0;
+            border-bottom: 2px solid #333;
+        }
+        .service{
+            .gap{
+                height: auto;
+                .label-box{
+                    height: auto;
+                    /* padding: 0 0 0 20px; */
+                    padding: 0 0 0 0;
+                    margin: 0 auto auto 0;
+                }
+                .check-box{
+                    padding: 0 0 0 0;
+                    width: 100%;
+                    dl{
+                        width: 100%;
+                        dt{
+                            label{
+                                display: block;
+                                width: 100%;
+                                input[type='checkbox']{
+                                    width: 24px;
+                                    height: 24px;
+                                    appearance: none;
+                                    border-radius: 50%;
+                                    background: url(../../public/img/checkbox.svg) no-repeat 50% 50%;
+                                    background-size: 24px 24px;
+                                    &:checked{
+                                        background-image: url(../../public/img/checkbox_checked.svg);
+                                    }
+                                }
+                                span{
+                                    font-size: 18px;
+                                    color: #444;
+                                    font-weight: 500;
+                                }
+                            }
+                            p{
+                                font-size: 12px;
+                                color: #666;
+                                padding: 3px 0 0 34px;
+                            }
+                        }
+                        dd{
+                            margin: 20px 0;
+                            position: relative;
+                            label{
+                                position: relative;
+                                display: block;
+                                width: 100%;
+                                z-index: 1;
+                                input[type='checkbox']{
+                                    width: 24px;
+                                    height: 24px;
+                                    appearance: none;
+                                    border-radius: 50%;
+                                    background: url(../../public/img/checkbox.svg) no-repeat 50% 50%;
+                                    background-size: 24px 24px;
+                                    &:checked{
+                                        background-image: url(../../public/img/checkbox_checked.svg);
+                                    }
+                                }
+                                span{
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    >i{color: #a8a8a8; margin-left: 5px;}
+                                }   
+                            }
+                            >span{
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                z-index: 2;
+                                font-size: 14px;
+                                >a{
+                                    color: #5f0080;
+                                    i{font-size: 12px;}
+                                }
+                            }
+                            .sub-checkbox{
+                                padding: 10px 0 0 34px;
+                                div{
+                                    padding: 0 150px 0 0;
+                                    display: flex;
+                                    flex: row wrap;
+                                    label{width: 30%;}
+                                }
+                                p{
+                                    font-size: 12px;
+                                    color: #5f0080;
+                                    margin: 5px 0 0 34px;
+                                    padding: 0 0 0 15px;
+                                    background: url(../../public/img/ico_sub_dot.svg) no-repeat 0 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .button-box{
+            padding: 50px 0 200px 0;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            button{
+                width: 250px;
+                height: 60px;
+                background: #5f0080;
+                border: 0;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    filter: brightness(120%);
+                }
+            }
+        }
+    }
+}
