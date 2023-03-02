@@ -79,6 +79,16 @@ i{font-style: normal;}
                     }
                     img{vertical-align: middle;}
                 }
+                .counter-timer-box{
+                    position: absolute;
+                    right: 35%;
+                    bottom: 15px;
+                    font-size: 12px;
+                    color: #f03f40;
+                }
+                #inputPhone1{
+                    margin-top: 10px;
+                }
                 button{}
                 .w120-btn{
                     width: 120px;
@@ -96,6 +106,9 @@ i{font-style: normal;}
                     &.phone{
                         border: 1px solid #ccc;
                         color: #ccc;
+                    }
+                    &.phoneok-btn{
+                        top: 55px;
                     }
                 }
                 label{
