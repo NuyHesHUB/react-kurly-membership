@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-kurly-membership/static/css/main.61158951.css",
-    "main.js": "/react-kurly-membership/static/js/main.799ba54a.js",
+    "main.css": "/react-kurly-membership/static/css/main.286d4dd1.css",
+    "main.js": "/react-kurly-membership/static/js/main.d34a138c.js",
     "static/media/checkbox_checked.svg": "/react-kurly-membership/static/media/checkbox_checked.a3f2a456d9210f2d4170.svg",
     "static/media/checkbox.svg": "/react-kurly-membership/static/media/checkbox.6dfd9b2c5c4e8a3bc2c8.svg",
     "index.html": "/react-kurly-membership/index.html",
     "static/media/ico_sub_dot.svg": "/react-kurly-membership/static/media/ico_sub_dot.f1c4a62d9156b1631e23.svg",
-    "main.61158951.css.map": "/react-kurly-membership/static/css/main.61158951.css.map",
-    "main.799ba54a.js.map": "/react-kurly-membership/static/js/main.799ba54a.js.map"
+    "main.286d4dd1.css.map": "/react-kurly-membership/static/css/main.286d4dd1.css.map",
+    "main.d34a138c.js.map": "/react-kurly-membership/static/js/main.d34a138c.js.map"
   },
   "entrypoints": [
-    "static/css/main.61158951.css",
-    "static/js/main.799ba54a.js"
+    "static/css/main.286d4dd1.css",
+    "static/js/main.d34a138c.js"
   ]
 }
