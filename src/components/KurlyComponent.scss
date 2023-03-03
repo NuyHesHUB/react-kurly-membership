@@ -136,8 +136,16 @@ i{font-style: normal;}
                 &.radio-box{
                     width: 53%;
                     display: flex;
-                    justify-content: space-between;
                     span{font-size: 14px;}
+                }
+                .radio-box2{ 
+                    display: flex;
+                }
+                .add-input-box{
+                    margin-top: 10px;
+                    .inputText{
+                        width: 70%;
+                    }
                 }
                 .date-box{
                     width: 70%;
